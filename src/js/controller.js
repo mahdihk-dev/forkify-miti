@@ -126,5 +126,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResult);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView._addHandlerUpload(controlAddRecipe);
+  console.log('WELCOME TO FORKIFY MATES :)');
 };
 init();
